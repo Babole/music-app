@@ -1,10 +1,13 @@
-import React, { useState } from "react";
-import './App.css'
+import React from "react";
+
+import { Header, Main } from './layout'
 
 function App() {
 
   return (
     <>
+      <Header />
+      <Main artistId="111239"/>
     </>
   );
 }
