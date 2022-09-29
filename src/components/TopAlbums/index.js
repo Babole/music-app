@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from "react";
-import axios from 'axios'
+import React from "react";
 
-import AlbumTemplate from "../AlbumTemplate";
+import { AlbumTemplate } from "../";
 
 function TopAlbums(props) {
 

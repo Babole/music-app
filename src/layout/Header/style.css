@@ -7,3 +7,23 @@ h1 {
     font-size: 2rem;
     color: antiquewhite;
 }
+
+.notCurrent>button {
+    background-color: rgb(80, 80, 80);
+}
+
+.notCurrent>button:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+.current>button {
+    background-color: rgb(50, 50, 50);
+}
+
+.current>button:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+#navLink_artists {
+    padding-left: 1vw;
+}

@@ -7,10 +7,10 @@ import './style.css'
 function Main(props) {
   const [artistData, setArtistData] = useState({})
   const [albumsData, setAlbumsData] = useState([
-    { strAlbumThumb: './defaultAlbums/1.png', strAlbum: '', intYearReleased: '' },
-    { strAlbumThumb: './defaultAlbums/2.png', strAlbum: '', intYearReleased: '' },
-    { strAlbumThumb: './defaultAlbums/3.png', strAlbum: '', intYearReleased: '' },
-    { strAlbumThumb: './defaultAlbums/4.png', strAlbum: '', intYearReleased: '' }
+    { strAlbumThumb: '/images/1.png', strAlbum: '', intYearReleased: '' },
+    { strAlbumThumb: '/images/2.png', strAlbum: '', intYearReleased: '' },
+    { strAlbumThumb: '/images/3.png', strAlbum: '', intYearReleased: '' },
+    { strAlbumThumb: '/images/4.png', strAlbum: '', intYearReleased: '' }
   ])
 
   useEffect(() => {

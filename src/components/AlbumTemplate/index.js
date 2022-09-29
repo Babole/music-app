@@ -1,6 +1,6 @@
 import React from "react";
 
-import FaveButton from "../FaveButton";
+import { FaveButton } from "../";
 
 function AlbumTemplate(props) {
     return (

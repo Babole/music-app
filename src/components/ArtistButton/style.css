@@ -1,0 +1,8 @@
+img {
+    width: 20vw;
+}
+
+.artistImg:hover {
+    position: relative;
+    top: -4px;;
+}
